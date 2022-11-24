@@ -1,11 +1,22 @@
+@font-face {
+    font-family: Azonix;
+    src: url('static/fonts/Azonix.otf');
+}
+@font-face {
+    font-family: Sono;
+    src: url('static/fonts/Sono-Regular.ttf');
+}
+
 .navbar {
     background-color: rgb(64, 104, 130);
     align-items: center;
+    font-family: Azonix;
 }
 
 .products-list {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .product-item {
@@ -13,6 +24,7 @@
     height: auto;
     background-color: rgb(240, 240, 240);
     margin-right: 50px;
+    margin-bottom: 50px;
     border-radius: 10px;
     text-align: center;
     transition: 0.2s;
@@ -63,6 +75,7 @@
     height: 100vh;
     overflow: hidden;
     background-color: rgb(105, 152, 171);
+    font-family: Azonix;
 }
 
 .grid-item {
@@ -195,6 +208,7 @@
     animation-fill-mode: backwards; /* Pour appliquer le style après l'animation */
     animation-name: appearing-text;
     opacity: 1;
+    font-family: Sono;
 }
 .grid-item:nth-of-type(1):active .appearing-active-menu .slogan-appear { /* slogan */
     animation-delay: 2.5s;
@@ -202,6 +216,7 @@
     animation-fill-mode: backwards; /* Pour appliquer le style après l'animation */
     animation-name: appearing-text;
     opacity: 1;
+    font-family: Sono;
 }
 .grid-item:nth-of-type(1):active .appearing-active-menu .slogan-appear .striking-the-wrong{ /* slogan barré */
     animation-delay: 3.5s;
@@ -363,4 +378,5 @@ a {
 
 body {
     margin: 0px;
+    font-family: Sono;
 }
