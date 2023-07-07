@@ -8,4 +8,4 @@ Vous pourrez trouver dessus quelques produits très intéressants tel que du dio
 [Moondustries - Home](https://moondustries.thorvicnet.repl.co/home.html)
 
 ### Une image du site:
-[Image du site](static/images/presentation.jpg)
+![Image du site](static/images/presentation.jpg)
