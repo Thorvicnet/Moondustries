@@ -6,3 +6,6 @@ Vous pourrez trouver dessus quelques produits très intéressants tel que du dio
 
 ### Pour l'observer:
 [Moondustries - Home](https://moondustries.thorvicnet.repl.co/home.html)
+
+### Une image du site:
+[Image du site](static/images/presentation.jpg)
